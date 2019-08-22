@@ -1,0 +1,26 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js start
+
+PATH: 
+  /Users/anthony.braun/.npm-packages/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/anthony.braun/.npm-packages/bin:/Applications/DevDesktop/tools:/Applications/DevDesktop/tools:/Applications/DevDesktop/tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, scandir '/Users/anthony.braun/.config/yarn/link'
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

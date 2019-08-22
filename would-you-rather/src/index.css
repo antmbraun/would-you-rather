@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 100vh;
+}
+
+.login>h1 {
+  border-right: 1px solid black;
+  padding-right: 5vw;
+}
+
+.login>form {
+  padding-left: 5vw;
+}
+
+.login legend {
+  font-weight: bold;
+  margin-bottom: .2em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+  background: #CCEAFF;
+  margin-bottom: 5%;
+}
+
+.nav>ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+  margin-left: -1em;
+}
+
+.nav>ul>li>a {
+  margin: 0 1em;
+  padding: .5em 1em;
+  background: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav>ul>li>a.active {
+  background: lightgrey;
+  font-weight: bold;
+}
+
+.questionListContainer, .questionContainer, .leaderboardContainer {
+  width: 50%;
+  margin: auto;
+}
+
+.questionListContainer>nav>ul {
+  list-style: none;
+  display: flex;
+  padding:0;
+  margin: 0;
+}
+
+.questionListContainer>nav>ul>li>a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  background: #CCEAFF;
+}
+
+.questionListContainer>nav>ul>li>a.active {
+  background: lightgray;
+  font-weight: bold;
+}
+
+.questionList {
+  padding: 1em;
+  background: lightgray;
+}
+
+.questionList ul {
+  list-style: none;
+}
+
+.questionContainer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.avatar {
+  border-radius: 100%;
+  width: 25%;
+}
+
+.questionDetailsContainer {
+  margin-left: 2em;
+}
+
+.questionTitle {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.choice {
+  padding: .5em;
+}
+
+.choice.chosen {
+  border: solid red 1px;
+}
+
+.userProfile {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.userDetails {
+  margin-left: 2em;
+}
+
+.userName {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.addNewQuestionContainer {
+  width: 30%;
+  margin: auto;
+}
+
+.addNewQuestionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.addNewQuestionForm legend {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.addNewQuestionForm input {
+  width: 100%;
+  font-size: 1.3em;
+  padding: .5em;
+}
+
+.addNewQuestionForm button {
+  width: 25%;
+  font-size: 1.1em;
+  padding: .5em;
+  font-weight: bold;
+  background: #ACFFC5;
+}
+.addNewQuestionForm > *  {
+  margin: .5em 0;
+}
