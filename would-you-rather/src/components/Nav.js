@@ -38,7 +38,7 @@ class Nav extends Component {
                     </nav>
                 </div>
                 <div>
-                    Welcome, {this.props.authedUserName} (<a onClick={this.logOut} href="">log out</a>)
+                    Welcome, {this.props.authedUserName} (<a onClick={this.logOut} href="/">log out</a>)
                 </div>
             </div>
             )

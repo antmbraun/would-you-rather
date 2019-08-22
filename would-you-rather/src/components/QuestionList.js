@@ -53,6 +53,7 @@ class QuestionList extends Component {
                                         </li>
                                     ) 
                                 }
+                                return false
                         }))
                         : "loading..."
                     }

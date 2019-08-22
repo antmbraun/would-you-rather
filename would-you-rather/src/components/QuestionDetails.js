@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import QuestionUnansweredOptions from './QuestionUnansweredOptions'
 import QuestionAnsweredResults from './QuestionAnsweredResults'
 
+
 class Question extends Component {
 
     state = {}
@@ -36,7 +37,7 @@ class Question extends Component {
                                         }                        
                                 </div>
                             </div>)
-                        : "Loading..." 
+                        : <div>404: Couldn't find that question</div>
                     }
                 </Fragment>
 

@@ -97,6 +97,11 @@ code {
   list-style: none;
 }
 
+.questionList li {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
 .questionContainer {
   display: flex;
   align-content: center;
